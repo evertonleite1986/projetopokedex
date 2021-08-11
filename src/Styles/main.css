@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFE53B;
+    background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);
+    padding-top: 1rem;
+}
+
+.app__card  {
+    margin: 1rem;
+}
+
+.app__card img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.app__card img:hover {
+    transform: scale(1.4);
+    transition: 800ms;
+}
+
+.app__card__id {
+    color: gray;
+}
+
+.app__card__name {
+    color:black
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    background-color: #FFE53B;
+    background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);
+
+}
+
+.app__info__info {
+    display: flex;
+    justify-content: center;
+}
+
+.app__info__h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 40px;
+}
+
+.app__info__h3 {
+    padding: 0.5rem;
+}
+
+.app__info__button {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.app__info button {
+    font: white;
+    font-size: 15px;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 8px; 
+    background-color: blue;   
+}
+
+.app__info button a {
+    color:white
+}
